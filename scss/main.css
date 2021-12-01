@@ -96,4 +96,14 @@ nav ul li a:hover {
   color: #fff;
   margin-top: 0px;
 }
+
+@media only screen and (max-width: 700px) {
+  nav ul {
+    width: 100%;
+    position: absolute;
+    top: 25px;
+    right: -140px;
+    z-index: 0;
+  }
+}
 /*# sourceMappingURL=main.css.map */
