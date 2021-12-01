@@ -32,17 +32,15 @@ input#search-bar{
    }
 
 .search-icon{
-    position: relative;
     float: right;
     width: 75px;
     height: 75px;
     top: -200px;
-    right: -171px;
-    
+    right: -12.5%;
 }
 
 nav{
-   flex:1;
+   flex:100;
    text-align: right;
 }
 nav ul li{

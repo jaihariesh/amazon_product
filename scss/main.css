@@ -31,18 +31,17 @@ input#search-bar {
 }
 
 .search-icon {
-  position: relative;
   float: right;
   width: 75px;
   height: 75px;
   top: -200px;
-  right: -171px;
+  right: -12.5%;
 }
 
 nav {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -webkit-box-flex: 100;
+      -ms-flex: 100;
+          flex: 100;
   text-align: right;
 }
 
