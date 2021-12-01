@@ -108,6 +108,7 @@ nav ul li a:hover {
   nav ul li {
     display: block;
     text-align: right;
+    font-size: 30px;
   }
 }
 /*# sourceMappingURL=main.css.map */
