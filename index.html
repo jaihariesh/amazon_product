@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/scss/main.css">
+    <link rel="shortcut icon" href="ama.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
+    <title>amazon</title>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="https://www.amazon.in/tryprime?tag=jaihariesh-21" target="_blank"><button id="prime">prime</button></a></li>
+                <li><a href="https://amzn.to/3G3giRh" target="_blank">Home</a></li>
+                <li><a href="https://amzn.to/3xyJNr2" target="_blank">Today's deal</a></li>
+            </ul>
+            
+        </nav>
+    </div>
+<div class="img">
+       <img src="/img/ama.png"  alt="amazon">
+   </div>
+<form class="bar">   
+    
+    <center><input type="text" id="search-bar"  placeholder="search product...">
+        <a href=""><img class="search-icon" onclick="sea()" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a></center>   
+        
+</form>
+<script>
+    function sea(){
+        var x=document.getElementById("search-bar").value;
+        const url="https://www.amazon.in/s?k=";
+        const url2="&linkCode=ll2&tag=jaihariesh-21&linkId=936ae60e934305a74b99f1813fdc373a&language=en_IN&ref_=as_li_ss_tl";
+        var url1=url+x+url2;
+        var win=window.open(url1,'_blank');
+        win.focus;
+    }
+</script>
+</body>
+</html>

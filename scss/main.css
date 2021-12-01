@@ -1,0 +1,100 @@
+html {
+  background-color: rebeccapurple;
+}
+
+img {
+  position: relative;
+  display: block;
+  margin-left: 500px;
+  margin-top: 140px;
+  margin-right: auto;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  width: 20%;
+}
+
+.search {
+  width: 490px;
+  display: block;
+  margin: auto;
+}
+
+input#search-bar {
+  margin: 0 150px;
+  width: 40%;
+  height: 45px;
+  padding: 0 20px;
+  font-size: 1rem;
+  border: 1px solid #D0CFCE;
+  border-radius: 100px;
+  outline: none;
+}
+
+.search-icon {
+  position: relative;
+  float: right;
+  width: 75px;
+  height: 75px;
+  top: -199px;
+  right: 368px;
+}
+
+nav {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-right: 40px;
+}
+
+nav ul li a {
+  font-family: "Outfit", sans-serif;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 0px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#prime {
+  width: 70px;
+  height: 30px;
+  border-radius: 100px;
+  cursor: pointer;
+  border: 0;
+  background: -webkit-gradient(linear, left top, right top, from(#13387c), to(#c4c4f7));
+  background: linear-gradient(to right, #13387c, #c4c4f7);
+  color: white;
+  font-family: "Outfit", sans-serif;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#prime:hover {
+  display: block;
+  width: 80px;
+  height: 40px;
+  font-size: 15px;
+  cursor: pointer;
+  border: 0;
+  background: -webkit-gradient(linear, left top, right top, from(#13387c), to(#c4c4f7));
+  background: linear-gradient(to right, #13387c, #c4c4f7);
+  color: white;
+  font-family: "Outfit", sans-serif;
+}
+
+nav ul li a:hover {
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 0px;
+}
+/*# sourceMappingURL=main.css.map */
