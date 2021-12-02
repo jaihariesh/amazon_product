@@ -28,8 +28,21 @@ input#search-bar{
     border: 1px solid #D0CFCE;
     border-radius: 100px;
     outline: none;
-    
+    font-family: $font;
    }
+.btn{
+  position: relative;
+  width: 8%;
+  border-radius: 20px;
+  padding: 5px;
+  left: 600px;
+  margin-top: 15px;
+  border: none;
+  font-family: $font;
+  font-weight:bold;
+  font-size: 19px;
+  background: rgb(252, 250, 250) ;
+}
 
 .search-icon{
     float: right;
