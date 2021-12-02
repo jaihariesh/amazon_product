@@ -155,6 +155,7 @@ nav ul li a:hover {
     margin: 0 9px;
   }
   .search-icon {
+    display: none;
     top: -335px;
     left: 135px;
   }
@@ -167,6 +168,12 @@ nav ul li a:hover {
   .nadu {
     margin-top: -35%;
     top: 50%;
+  }
+  .btn {
+    width: 100px;
+    display: block;
+    margin-left: 130px;
+    font-size: 25px;
   }
 }
 /*# sourceMappingURL=main.css.map */
