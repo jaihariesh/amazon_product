@@ -125,7 +125,7 @@ nav ul li a:hover {
     width: 80%;
     margin: 0 9px;
   }
-  input#search-bar .search-icon {
+  .search-icon {
     top: -305px;
     left: 120px;
   }
