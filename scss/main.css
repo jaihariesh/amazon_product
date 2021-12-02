@@ -109,12 +109,12 @@ nav ul li a:hover {
     width: 100%;
     text-align: right;
     position: absolute;
-    top: 10px;
-    right: -40px;
+    top: -10px;
+    right: -15px;
   }
   nav ul li {
-    display: block;
-    padding: 6px;
+    display: inline-block;
+    padding: px;
     font-size: 20px;
     text-decoration: underline;
   }
@@ -131,9 +131,10 @@ nav ul li a:hover {
     margin-top: 80%;
   }
   #prime {
-    width: 35%;
+    width: 10%;
     height: 35px;
     font-size: 20px;
+    color: black;
   }
   input#search-bar {
     width: 80%;
@@ -146,8 +147,12 @@ nav ul li a:hover {
   #veedu {
     display: block;
     margin: 0%;
-    margin-top: -49%;
-    left: -45px;
+    margin-top: 0%;
+    left: -24px;
+  }
+  .nadu {
+    margin-top: -20%;
+    top: 50%;
   }
 }
 /*# sourceMappingURL=main.css.map */
