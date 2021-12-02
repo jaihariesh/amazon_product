@@ -47,14 +47,17 @@ nav ul li{
   
   list-style: none;
   display: inline-block;
-  margin-top: 10px;
+  margin-top: -20px;
+  padding: 0px;
   margin-right: 40px;
 }
 nav ul li a{
   font-family: $font;
   text-decoration: none;
   color: #fff;;
+  font-size: 20px;
   margin-top: 0px;
+  border: 1px solid rebeccapurple;
   transition: 0.5s;
 }
 #veedu{
@@ -62,31 +65,25 @@ nav ul li a{
   display: none;
 }
 #prime{
-  width: 70px;
-  height: 30px;
-  border-radius: 100px;
+  margin-top: -30%;
+  padding-bottom: 0%;
+  padding-top: 0px;
+  bottom: -30px;
+  width: 60px;
   cursor: pointer;
-  border: 0;
-  background: linear-gradient(to right,rgb(19, 56, 124),rgb(196, 196, 247)  );
-  color:white;
-  font-family: $font;
   transition: 0.5s;
+  bottom: 100x;
 }
 
 #prime:hover{
   display: block;
-  width: 80px;
-  height: 40px;
-  font-size: 15px;
+  width: 70px;
   cursor: pointer;
   border: 0;
-  background: linear-gradient(to right,rgb(19, 56, 124),rgb(196, 196, 247)  );
-  color:white;
-  font-family: $font;
 }
 
 nav ul li a:hover{
-  font-size: 20px;
+  font-size: 30px;
   font-family: $font;
   text-decoration: none;
   color: #fff;;
@@ -101,18 +98,20 @@ nav ul li a:hover{
     width: 100%;
     text-align: right;
     position: absolute;
-    top: -10px;
+    top: 7px;
     right: -15px;
     
   }
   nav ul li{
     display: inline-block;
-    padding: px;
+    padding-top: 5px;
+    right: 10px;
     font-size: 20px;
     text-decoration: underline;
     }
   nav ul li a{
      color: black;
+     border: none;
     }
   #home{
     display: none;
@@ -124,10 +123,8 @@ nav ul li a:hover{
       margin-top: 80%;
     }
   #prime{
-    width: 10%;
-    height: 35px;
-    font-size: 20px;
-    color: black;
+    width: 70%;
+    padding-left:50px ;
   }
   input#search-bar{
     width: 80%;
