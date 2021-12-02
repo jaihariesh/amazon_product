@@ -46,6 +46,14 @@ input#search-bar {
   font-size: 19px;
   cursor: pointer;
   background: #fcfafa;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  width: 120px;
+  height: 35px;
+  color: #494c50;
 }
 
 .search-icon {
@@ -111,7 +119,6 @@ nav ul li a:hover {
   font-size: 30px;
   font-family: "Outfit", sans-serif;
   text-decoration: none;
-  color: #fff;
   margin-top: 0px;
 }
 
