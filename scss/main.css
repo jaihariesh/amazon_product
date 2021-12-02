@@ -61,6 +61,11 @@ nav ul li a {
   transition: 0.5s;
 }
 
+#veedu {
+  width: 40px;
+  display: none;
+}
+
 #prime {
   width: 70px;
   height: 30px;
@@ -113,6 +118,12 @@ nav ul li a:hover {
     font-size: 20px;
     text-decoration: underline;
   }
+  nav ul li a {
+    color: black;
+  }
+  #home {
+    display: none;
+  }
   img {
     position: relative;
     width: 60%;
@@ -131,6 +142,12 @@ nav ul li a:hover {
   .search-icon {
     top: -335px;
     left: 135px;
+  }
+  #veedu {
+    display: block;
+    margin: 0%;
+    margin-top: -49%;
+    left: -45px;
   }
 }
 /*# sourceMappingURL=main.css.map */
